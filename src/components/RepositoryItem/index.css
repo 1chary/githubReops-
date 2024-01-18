@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.individualCardContainer {
+  background-color: #f8f8ff;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .individualCardContainer {
+    width: 100%;
+  }
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+}
+
+.inRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.starsImage {
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+.redHeading {
+  color: #e73959;
+}
